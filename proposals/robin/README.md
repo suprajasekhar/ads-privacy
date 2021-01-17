@@ -32,15 +32,15 @@ Considering a DSP often partners with several SSPs, it may be beneficial to stan
   'creativeId': 'ad123'
   'declaredMetadata': {'click_through_url': 'url123', 'categories'..}
   'adCborUrl': 'https://dsp.com/ads/ad-123.wbn'
-  'height':100
-  'width':200
+  'height': 100
+  'width': 200
 },
 {
   'creativeId': 'ad567'
   'declaredMetadata': {'click_through_url': 'url567', 'categories'..}
   'adCborUrl': 'https://dsp.com/ads/ad-567.wbn'
-  'height':150
-  'width':250
+  'height': 150
+  'width': 250
 },
 …
 ]
@@ -52,9 +52,9 @@ During the [incremental adoption path](https://github.com/WICG/turtledove#increm
 [{
   'creativeId': 'ad123',
   'declaredMetadata': {'click_through_url': 'url123', 'categories'..},
-  'adHtml':'<html> Hello World </html>',
-  'height':100,
-  'width':200
+  'adHtml': '<html> Hello World </html>',
+  'height': 100,
+  'width': 200
 },
 …
 ]
